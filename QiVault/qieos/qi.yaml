@@ -1,0 +1,15 @@
+app:
+  id: qieos
+  name: Qi-App EOS
+  ver: 0.1.0
+  desc: "QiVerse root template for modular app integration."
+  auth: QiAlly
+  cat: core
+  cockpit: true
+  entry: main.py
+  out: ["json"]
+  mode: eos
+
+paths:
+  base_out: "./dat/out"
+  base_tmp: "./dat/tmp"

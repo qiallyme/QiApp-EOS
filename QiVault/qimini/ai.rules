@@ -1,0 +1,7 @@
+# QiMini Rules (Windows)
+1) Keep core, ast, dat folder names.
+2) Expose boot() in main.py and go() in core/run.py.
+3) qi.yaml must exist and match entry main.py.
+4) Default writes to ./dat/out.
+5) Do not remove core/hook.py if Cockpit discovery is required.
+6) No secrets in git (.env, service-account.json ignored).

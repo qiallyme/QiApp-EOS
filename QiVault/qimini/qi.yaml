@@ -1,0 +1,15 @@
+app:
+  id: qimini
+  name: QiMini
+  ver: 0.1.0
+  desc: "Hello-World proof template."
+  auth: QiAlly
+  cat: demo
+  cockpit: true
+  entry: main.py
+  out: ["txt","json"]
+  mode: app
+
+paths:
+  base_out: "./dat/out"
+  base_tmp: "./dat/tmp"

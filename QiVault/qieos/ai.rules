@@ -1,0 +1,9 @@
+# Qi-App EOS Rules (Windows)
+1) Folder names are fixed: core, ast, dat.
+2) Every app exposes boot() in main.py and go() in core/run.py.
+3) qi.yaml must exist and declare entry + outputs.
+4) Apps write to ./dat/out by default.
+5) Cockpit handshake lives in core/hook.py.
+6) Do not rename qi.yaml, main.py, or core/hook.py.
+7) No secrets in git. Use .env and .env.example.
+8) Code exporter must exclude venv/, node_modules/, dist/, build/, __pycache__/.

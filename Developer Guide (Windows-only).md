@@ -161,13 +161,11 @@ Origin template for all QiVerse mini-apps. Flat, portable, double-clickable.
 - `install-win.bat`
 
 ## CLI examples
-```
-
+```powershell
 python main.py                # sanity run
 python main.py dat/in/foo     # pass input path
 python -m core.ui --help      # full CLI
 python -m core.ui --export    # export code bundle HTML to dat/out/
-
 ```
 
 ## Structure
